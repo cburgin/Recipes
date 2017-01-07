@@ -7,3 +7,37 @@ Easy to make Chinese pork egg rolls.
 [IMAGE]
 eggroll.jpg
 
+[INGREDIENTS]
+Egg Roll Wrappers: 30
+Ground Pork: 1Lb
+Ginger Root: 2 inches
+Garlic: 5 Cloves
+Green Onion: 6 Stalks
+Carrots: 2 Large
+Cabbage: 5 Cups chopped
+Soy Sauce: 6 Tbsp
+Sugar: 2 Tbps
+Sesame Oil: 2 Tbps
+Vegtable Oil: 2 Tbps
+
+[INSTRUCTIONS]
+TBD
+
+[NUTRITION]
+Calories: 147
+Fat: 7g
+Saturated Fat: 1.2g
+Polyunsaturated Fat: 1.7g
+Monounsaturated Fat: 3.5g
+Trans Fat: 0g
+Cholesterol: 13.1mg
+Sodium: 330mg
+Potassium: 107mg
+Carbs: 16.1g
+Fiber: 1g
+Sugar: 3.4g
+Protein: 5.6g
+Vitamin A: 14%
+Vitamin C: 11%
+Calcium: 2.1%
+Iron: 5.4%
