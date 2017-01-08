@@ -16,6 +16,38 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<style>
+
+		.dropdown {
+		    position: relative;
+		    display: inline-block;
+		}
+
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    padding-top: 70%;
+		    right: 0;
+		    background-color: #f9f9f9;
+		    min-width: 160px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		}
+
+		.dropdown-content a:hover {background-color: #f1f1f1}
+
+		.dropdown:hover .dropdown-content {
+		    display: block;
+		}
+		</style>
+
 	</head>
 	<body>
 		<!-- Wrapper -->
@@ -25,46 +57,30 @@
 					<header id="header">
 						<div class="inner">
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-<!-- Logo needs updating -->
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
-
 							<!-- Nav -->
 								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
+									<nav class="dropdown">
+										<div class="dropdown-content">
+											<a href="#">Home</a>
+											<a href="#">Breakfast</a>
+											<a href="#">Lunch</a>
+											<a href="#">Dinner</a>
+											<a href="#">Dessert</a>
+										</div>
+										<ul>
+											<li><a href="#menu">Menu</a></li>
+										</ul>
+									</nav>
 								</nav>
 
 						</div>
 					</header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Breakfast</a></li>
-							<li><a href="generic.html">Lunch</a></li>
-							<li><a href="generic.html">Beverages</a></li>
-							<li><a href="generic.html">Appetizers</a></li>
-							<li><a href="generic.html">Soups</a></li>
-							<li><a href="generic.html">Salads</a></li>
-							<li><a href="generic.html">Main Dishes</a></li>
-							<li><a href="generic.html">Side Dishes</a></li>
-							<li><a href="generic.html">Desserts</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-					</nav>
-
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>This is Phantom, a free, fully responsive site<br />
-								template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+								<h1>Recipes by Colin and Kaila</h1>
 								<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
 							</header>
 							<section class="tiles">
@@ -245,12 +261,7 @@
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+
 
 	</body>
 </html>
