@@ -13,6 +13,102 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/test.css" />
+		<style>
+
+		  /* Parallax base styles
+		  --------------------------------------------- */
+
+		  .parallax {
+		    height: 100vh;
+		    overflow-x: hidden;
+		    overflow-y: auto;
+		    -webkit-perspective: 1px;
+		    perspective: 1px;
+		  }
+
+		  .parallax__layer {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		  }
+
+		  .parallax__layer--base {
+		    -webkit-transform: translateZ(0);
+		    transform: translateZ(0);
+		  }
+
+		  .parallax__layer--back {
+		    -webkit-transform: translateZ(-1px) scale(2);
+		    transform: translateZ(-1px) scale(2);
+		  }
+
+		  .fixed {
+		      position: fixed;
+		      bottom: 0;
+		      right: 0;
+		      width: 100%;
+		  }
+
+		  .name {
+		    background-color: #ffffff;
+		    width: 100%;
+		    text-align: center;
+		    font-size: 12px;
+		    font-size: 3vw;
+		  }
+
+		  .center
+		    {
+		      padding-top: 10%;
+		      padding-bottom: 10%;
+		}
+
+		  /* demo styles
+		  --------------------------------------------- */
+
+		  * {
+		    margin:0;
+		    padding:0;
+		  }
+
+		  body {
+		    font: 100% / 1.5 Arial;
+		  }
+
+		  .parallax {
+		    font-size: 200%;
+		  }
+
+		   /* add some padding to force scrollbars */
+		  .parallax__layer {
+		    padding: 100vh 0;
+		  }
+
+		   /* centre the content in the parallax layers */
+		  .title {
+		    position: relative;
+		    left: 50%;
+		    top: 50%;
+		    -webkit-transform: translate(-50%, -50%);
+		    transform: translate(-50%, -50%);
+		  }
+
+
+		  /* misc
+		  --------------------------------------------- */
+		  .demo__info {
+		    position: absolute;
+		    z-index:100;
+		    bottom: 1vh;
+		    top: auto;
+		    font-size:80%;
+		    text-align:center;
+		    width: 100%;
+		  }
+		</style>
 </head>
 	<body>
 		<!-- Wrapper -->
@@ -21,11 +117,6 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="inner">
-
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
 
 							<!-- Nav -->
 								<nav>
@@ -52,7 +143,6 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Recipe Name</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
 
 							<h2>Ingredients</h2>
