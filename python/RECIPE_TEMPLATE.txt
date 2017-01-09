@@ -1,0 +1,28 @@
+[RECIPE]
+
+[DESCRIPTION]
+
+[IMAGE]
+
+[INGREDIENTS]
+
+[INSTRUCTIONS]
+
+[NUTRITION]
+Calories:
+Fat:
+Saturated Fat:
+Polyunsaturated Fat:
+Monounsaturated Fat:
+Trans Fat:
+Cholesterol:
+Sodium:
+Potassium:
+Carbs:
+Fiber:
+Sugar:
+Protein:
+Vitamin A:
+Vitamin C:
+Calcium:
+Iron:
