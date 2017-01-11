@@ -40,6 +40,7 @@ class addRecipe:
 
     # Convert the recipe into an html file
     def write_recipe(self, filename):
+        # Open the recipe template file
 
 
 def main():
